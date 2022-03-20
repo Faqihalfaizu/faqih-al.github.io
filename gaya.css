@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root{
+  --playfair:'Playfair Display', serif;
+  --Quicksand:'Quicksand', sans-serif;
+  --Roboto:'Roboto', sans-serif;
+  --dark: #3c393d;
+  --exDark: #2b2b2b;
+}
+.jumbotron {
+    background: url("https://images.unsplash.com/photo-1555852441-ca0d327da1e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80.jpg")no-repeat center center;
+    background-size: cover;
+    font-family: var(--playfair);
+    padding-top: 25%;
+    padding-bottom: 25%;
+    color: #fff;
+  }
+
+  #wakatobi{
+    padding-top: 5rem ;
+    font-family: var(--Quicksand);
+  }
+  #komodo{
+    padding-top: 4rem ;
+    font-family: var(--Quicksand);
+  }
+  #raja{
+    padding-top: 4rem ;
+    font-family: var(--Quicksand);
+  }
